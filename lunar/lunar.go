@@ -27,7 +27,7 @@ var dateAlias = [...]string{
 
 var lunarMonthAlias = [...]string{
 	"正", "二", "三", "四", "五", "六",
-	"七", "八", "九", "十", "冬", "腊",
+	"七", "八", "九", "十", "冬", "臘",
 }
 
 var lunars = [...]int64{
