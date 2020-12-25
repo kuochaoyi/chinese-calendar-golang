@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/Lofanmi/chinese-calendar-golang.svg)](https://travis-ci.org/Lofanmi/chinese-calendar-golang)
 [![codecov](https://codecov.io/gh/Lofanmi/chinese-calendar-golang/branch/master/graph/badge.svg)](https://codecov.io/gh/Lofanmi/chinese-calendar-golang)
-[![Go Report Card](https://goreportcard.com/badge/github.com/Lofanmi/chinese-calendar-golang)](https://goreportcard.com/report/github.com/Lofanmi/chinese-calendar-golang)
+[![Go Report Card](https://goreportcard.com/badge/github.com/kuochaoyi/chinese-calendar-golang)](https://goreportcard.com/report/github.com/kuochaoyi/chinese-calendar-golang)
 
 ** 本專案因為自己需要它, 但原作者沒有採用 GO MODULD 和正體中文
 
@@ -21,7 +21,7 @@ Go 1.7+測試通過, 1.6及以下應該也可以, 不過單元測試跑不了.
 # 如何安裝
 
 ```bash
-go get -u -v github.com/Lofanmi/chinese-calendar-golang
+go get -u -v github.com/kuochaoyi/chinese-calendar-golang
 ```
 
 # 用法
@@ -38,7 +38,7 @@ date -R
 import (
 	"time"
 
-	"github.com/Lofanmi/chinese-calendar-golang/calendar"
+	"github.com/kuochaoyi/chinese-calendar-golang/calendar"
 )
 
 func xxx() {

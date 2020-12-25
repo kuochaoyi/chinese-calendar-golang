@@ -3,10 +3,10 @@ package solar
 import (
 	"time"
 
-	"github.com/Lofanmi/chinese-calendar-golang/animal"
-	"github.com/Lofanmi/chinese-calendar-golang/constellation"
-	"github.com/Lofanmi/chinese-calendar-golang/solarterm"
-	"github.com/Lofanmi/chinese-calendar-golang/utils"
+	"github.com/kuochaoyi/chinese-calendar-golang/animal"
+	"github.com/kuochaoyi/chinese-calendar-golang/constellation"
+	"github.com/kuochaoyi/chinese-calendar-golang/solarterm"
+	"github.com/kuochaoyi/chinese-calendar-golang/utils"
 )
 
 // Solar 公历
@@ -73,6 +73,12 @@ func (solar *Solar) Constellation() *constellation.Constellation {
 // GetYear 年
 func (solar *Solar) GetYear() int64 {
 	return int64(solar.t.Year())
+}
+
+// GetYear 台灣年
+func (solar *Solar) GetYearTW() int64 {
+	first_year_of_ROC := 1911
+	return int64(solar.t.Year() - first_year_of_ROC)
 }
 
 // GetMonth 月

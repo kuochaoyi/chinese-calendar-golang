@@ -3,14 +3,18 @@ package ganzhi
 import (
 	"time"
 
-	"github.com/Lofanmi/chinese-calendar-golang/animal"
-	"github.com/Lofanmi/chinese-calendar-golang/gan"
-	"github.com/Lofanmi/chinese-calendar-golang/solarterm"
-	"github.com/Lofanmi/chinese-calendar-golang/utils"
-	"github.com/Lofanmi/chinese-calendar-golang/zhi"
+	"github.com/kuochaoyi/chinese-calendar-golang/animal"
+	"github.com/kuochaoyi/chinese-calendar-golang/gan"
+	"github.com/kuochaoyi/chinese-calendar-golang/solarterm"
+	"github.com/kuochaoyi/chinese-calendar-golang/utils"
+	"github.com/kuochaoyi/chinese-calendar-golang/zhi"
 )
 
-// Ganzhi 干支历
+/*
+The Chinese Calendar with a Sexagesimal dating by Ganzhi (干支)
+*/
+
+// Ganzhi 干支曆
 type Ganzhi struct {
 	t             *time.Time
 	YearGan       *gan.Gan

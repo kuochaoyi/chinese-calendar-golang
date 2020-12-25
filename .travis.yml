@@ -9,7 +9,7 @@ go:
 git:
   depth: 3
 
-go_import_path: github.com/Lofanmi/chinese-calendar-golang
+go_import_path: github.com/kuochaoyi/chinese-calendar-golang
 
 script:
   - make test

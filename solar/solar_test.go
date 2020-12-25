@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Lofanmi/chinese-calendar-golang/animal"
-	"github.com/Lofanmi/chinese-calendar-golang/constellation"
-	"github.com/Lofanmi/chinese-calendar-golang/solarterm"
+	"github.com/kuochaoyi/chinese-calendar-golang/animal"
+	"github.com/kuochaoyi/chinese-calendar-golang/constellation"
+	"github.com/kuochaoyi/chinese-calendar-golang/solarterm"
 )
 
 func TestNewSolar(t *testing.T) {

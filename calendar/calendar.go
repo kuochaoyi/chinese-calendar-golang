@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/Lofanmi/chinese-calendar-golang/ganzhi"
-	"github.com/Lofanmi/chinese-calendar-golang/lunar"
-	"github.com/Lofanmi/chinese-calendar-golang/solar"
+	"github.com/kuochaoyi/chinese-calendar-golang/ganzhi"
+	"github.com/kuochaoyi/chinese-calendar-golang/lunar"
+	"github.com/kuochaoyi/chinese-calendar-golang/solar"
 )
 
 // Calendar 日历
@@ -59,6 +59,7 @@ func (calendar *Calendar) ToJSON() ([]byte, error) {
 	m3 := make(map[string]interface{})
 
 	m1["year"] = calendar.Solar.GetYear()
+	m1["yearTW"] = calendar.Solar.GetYearTW()
 	m1["month"] = calendar.Solar.GetMonth()
 	m1["day"] = calendar.Solar.GetDay()
 	m1["hour"] = calendar.Solar.GetHour()
