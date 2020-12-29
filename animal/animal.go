@@ -10,7 +10,7 @@ var animalAlias = [...]string{
 	"馬", "羊", "猴", "雞", "狗", "猪",
 }
 
-// NewAnimal 创建生肖对象
+// NewAnimal 創建生肖物件
 func NewAnimal(order int64) *Animal {
 	if !isSupported(order) {
 		return nil
@@ -18,7 +18,7 @@ func NewAnimal(order int64) *Animal {
 	return &Animal{order: order}
 }
 
-// Alias 返回生肖名称(鼠牛虎...)
+// Alias 返回生消名稱(鼠牛虎...)
 func (animal *Animal) Alias() string {
 	return animalAlias[(animal.order-1)%12]
 }

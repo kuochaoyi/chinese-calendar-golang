@@ -4,9 +4,11 @@
 [![codecov](https://codecov.io/gh/Lofanmi/chinese-calendar-golang/branch/master/graph/badge.svg)](https://codecov.io/gh/Lofanmi/chinese-calendar-golang)
 [![Go Report Card](https://goreportcard.com/badge/github.com/kuochaoyi/chinese-calendar-golang)](https://goreportcard.com/report/github.com/kuochaoyi/chinese-calendar-golang)
 
-** 本專案因為自己需要它, 但原作者沒有採用 GO MODULD 和正體中文
+** 本專案因為自己需要它, 但原作者沒有採用 GO MODULD 和正體中文, 也停更快一年了.
 
-** 所以我 forked from Lofanmi/chinese-calendar-golang 來改.
+** 所以我 forked from Lofanmi/chinese-calendar-golang 稍改來用.
+
+# -- (以下保留原創者內容) --
 
 公曆, 農曆, 干支歷轉換包, 提供精確的日曆轉換.
 
